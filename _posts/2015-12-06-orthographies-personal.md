@@ -10,7 +10,7 @@ Until very recently the only Cornish I really knew was the kind I’d learnt at 
 
 ![](https://78.media.tumblr.com/e97ff62a2666143aa3528eca3bad31a5/tumblr_mwdnbp9mWv1qhbg1bo1_250.png)
 
-War an glin a’m tas, ow tesky Kernowek (or, more accurately, Kernuack).
+<sub>War an glin a’m tas, ow tesky Kernowek (or, more accurately, Kernuack).</sub>
 
 Learning Cornish natively but from a single oral source of input, I ended up not writing anything in Cornish at all until this summer when I was working through the exercises in *Clappya Kernowek*, and not seeing it written down very much until then either. So when I eventually learnt to read and write Cornish—and learnt the grammar properly—it was the Unified Cornish Revised version I learnt. So my grammar and spelling conformed with UCR and my spoken Cornish remained Late (LC).
 
