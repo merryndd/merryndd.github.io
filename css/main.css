@@ -13,9 +13,11 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-p ~ ul {
-    font-family:'Georgia', 'Serif';
+ul {
     font-size: .8em;
+    line-height: 1em;
+    color: #333;
+    font-family:'Georgia', 'Serif';
 }
 
 a {
