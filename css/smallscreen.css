@@ -23,6 +23,7 @@ nav ul, footer ul {
 	list-style-type: none;
     margin: 30px;
     padding: 0;
+    line-height: 50px;
 }
 nav ul li, footer ul li {
     display: inline;
