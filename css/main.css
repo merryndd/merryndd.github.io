@@ -75,12 +75,11 @@ ol, ul {
 	border-bottom: 1px dashed;
 }
 
-.reverse {
-	font-size: smaller;
-    color: white;
-    background-color: #333;
-    border-radius: 30%;
-    padding: 3px;
+blockquote {
+	font-style: italic;
+   }
+blockquote i, blockquote em {
+	font-style: normal;
    }
 
 figure {
