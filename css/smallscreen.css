@@ -17,6 +17,7 @@ a:hover {
     
 nav {
 	border-bottom: 1px solid #737373;
+	position: static;
     }
 
 nav ul, footer ul {
@@ -78,6 +79,7 @@ img {
    
 footer {
 	border-top: 1px solid #737373;
+	position: static;
    }
 
 
