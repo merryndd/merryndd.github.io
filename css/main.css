@@ -82,6 +82,13 @@ blockquote i, blockquote em {
 	font-style: normal;
    }
 
+.noit {
+	font-style: normal;
+   }
+.noit i, .noit em {
+	font-style: italic;
+   }
+
 figure {
 	border: 1px solid black;
     width: 50%;
