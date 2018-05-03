@@ -46,6 +46,12 @@ h1 {
     font-size: 3em;
     font-family: 'Fredoka One', cursive;
     font-weight: normal;
+    -webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+   }    
+
+h1:hover {
+    color: silver;
 }
 h2 {
     font-size: 2em;
