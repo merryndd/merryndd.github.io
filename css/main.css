@@ -75,6 +75,14 @@ ol, ul {
 	border-bottom: 1px dashed;
 }
 
+.reverse {
+	font-size: smaller;
+    color: white;
+    background-color: #333;
+    border-radius: 30%;
+    padding: 3px;
+   }
+
 figure {
 	border: 1px solid black;
     width: 50%;
