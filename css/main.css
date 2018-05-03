@@ -77,13 +77,16 @@ ol, ul {
 
 blockquote {
 	font-style: italic;
+    border-left: 2px solid silver;
+    padding: 0 0 0 8px;
    }
 blockquote i, blockquote em {
 	font-style: normal;
    }
-
 .noit {
 	font-style: normal;
+    padding: 0;
+    border: none;
    }
 .noit i, .noit em {
 	font-style: italic;
