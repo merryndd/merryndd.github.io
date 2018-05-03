@@ -60,10 +60,15 @@ p {
     color: #333;
     font-family: 'Raleway', sans-serif;
     }
+
+ol, ul {
+	text-align: justify;
+}
     
 .bibentry {
 	padding-left: 22px ;
     text-indent: -22px ;
+	text-align: left;
 	}
 
 .tooltip {
