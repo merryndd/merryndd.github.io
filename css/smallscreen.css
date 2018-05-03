@@ -68,6 +68,10 @@ p {
     text-indent: -22px ;
 	}
 
+.tooltip {
+	border-bottom: 1px dashed;
+}
+
 figure {
 	border: 1px solid black;
     width: 50%;
