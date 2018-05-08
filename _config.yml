@@ -1,3 +1,5 @@
 name: Merryn
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap
