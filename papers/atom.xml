@@ -4,17 +4,18 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Papers</title>
-	<link href="http://merryndd.github.io/papers/atom.xml" rel="self"/>
-	<link href="http://merryndd.github.io/papers"/>
+	<title>Blog</title>
+	<link href="http://merryndd.github.io/news/atom.xml" rel="self"/>
+	<link href="http://merryndd.github.io/news"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://merryndd.github.io/papers</id>
+	<id>http://merryndd.github.io/news</id>
 	<author>
 		<name>Merryn</name>
 		<email>merryndd@gmail.com</email>
 	</author>
 
-	{% for post in site.pres %}
+	{% for post in site.categories.papers %}
+	{% if post.url %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://merryndd.github.io{{ post.url }}"/>
@@ -22,6 +23,7 @@ layout: feed
 			<id>http://merryndd.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
+	{% endif %}
 	{% endfor %}
 
 </feed>
