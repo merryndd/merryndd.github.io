@@ -14,7 +14,8 @@ layout: feed
 		<email>merryndd@gmail.com</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for post in site.categories.blog %}
+	{% if post.url %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://merryndd.github.io{{ post.url }}"/>
@@ -22,6 +23,7 @@ layout: feed
 			<id>http://merryndd.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
+	{% endif %}
 	{% endfor %}
 
 </feed>
