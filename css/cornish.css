@@ -5,20 +5,30 @@
 .langkw {
 	color: white;
     background-color: black;
-    display: inline;
-    margin: 0 10px 0 0;
-    border-radius: 5px;
+	cursor: default;
+}
+
+.langkw:hover {
+	text-decoration: none;
+}
+
+.langkw:visited {
+	color: white;
 }
 
 .langen {
 	color: white;
     background-color: gray;
-    display: inline;
-    margin: 0 10px 0 0;
     border-radius: 5px;
 }
 
 .langen:hover {
 	color: white;
     background-color: black;
+	cursor: crosshair;
+text-decoration: none;
 }
+
+.langen:visited {
+	color: white;
+    }
