@@ -152,3 +152,29 @@ footer {
 	height: auto;
    }
 }
+
+.en {
+	display: none;
+	}
+    
+.langkw {
+	color: white;
+    background-color: black;
+    display: inline;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.langen {
+	color: white;
+    background-color: gray;
+    display: inline;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.langen:hover {
+	color: white;
+    background-color: black;
+    cursor: crosshair;
+}
