@@ -6,6 +6,8 @@
 	color: white;
     background-color: black;
 	cursor: default;
+	padding: 10px;
+    border-radius: 5px;
 }
 
 .langkw:hover {
@@ -19,6 +21,7 @@
 .langen {
 	color: white;
     background-color: gray;
+	padding: 10px;
     border-radius: 5px;
 }
 
