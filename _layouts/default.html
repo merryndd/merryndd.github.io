@@ -1,20 +1,413 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Raleway" rel="stylesheet">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
+<html>
+<head>
+<title>{{ page.title }}</title>
+<style>
+body {
+	font-family: 'Raleway', sans-serif;
+    }
+    
+.kw {
+	display: none;
+	}
+    
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:visited {
+	color: #737373;
+    }
+   
+a:hover {
+    text-decoration: underline;
+    }
+nav {
+	position: fixed;
+    width: 200px;
+    height: 82%;
+    overflow: auto;
+}
+nav ul, footer ul {
+	list-style-type: none;
+    margin: 30px;
+    padding: 0;
+}
+nav ul li, footer ul li {
+	padding: 5px;
+}
+
+.langen {
+	color: white;
+    background-color: black;
+    display: inline;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.langkw {
+	color: white;
+    background-color: gray;
+    display: inline;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.langkw:hover {
+	color: white;
+    background-color: black;
+    cursor: crosshair;
+}
+
+nav a:hover, footer a:hover {
+    text-decoration: underline;
+    background: #e6e6e6;
+    }
+
+.container {
+	position: relative;
+    left: 200px;
+    width: 70%;
+    padding: 30px 30px 30px 10px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    -webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+   }    
+
+h1:hover {
+    color: silver;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    }
+
+p {
+	text-align: justify;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    }
+
+ol, ul {
+	text-align: justify;
+}
+    
+.bibentry {
+	padding-left: 22px ;
+    text-indent: -22px ;
+	text-align: left;
+	}
+
+.tooltip {
+	border-bottom: 1px dashed;
+}
+
+blockquote {
+	font-style: italic;
+    border-left: 2px solid silver;
+    padding: 0 0 0 8px;
+   }
+blockquote i, blockquote em {
+	font-style: normal;
+   }
+.noit {
+	font-style: normal;
+    padding: 0;
+    border: none;
+   }
+.noit i, .noit em {
+	font-style: italic;
+   }
+
+figure {
+	border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    margin: auto;
+    padding: 0.5em;
+   }
+
+img {
+    width: 100%;
+   }
+
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 200px;
+    height: 30%;
+   }
+   
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+@media (max-width: 810px) {
+    nav {
+	border-bottom: 1px solid #737373;
+	position: static;
+	width: 100%;
+	height: auto;
+    }
+    nav ul, footer ul {
+    line-height: 50px;
+}
+nav ul li, footer ul li {
+    display: inline;
+    background: #f2f2f2;
+    margin: 10px;
+}
+nav a:hover, footer a:hover {
+    background: #f2f2f2;
+    }
+.container {
+    padding: 30px 10px 30px 10px;
+    margin: 0;
+	position: static;
+	left: auto;
+	width: 100%;
+}
+footer {
+	border-top: 1px solid #737373;
+	position: static;
+	width: 100%;
+	height: auto;
+   }
+}
+
+</style>
+<style>
+body {
+	font-family: 'Raleway', sans-serif;
+    }
+    
+.en {
+	display: none;
+	}
+    
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:visited {
+	color: #737373;
+    }
+   
+a:hover {
+    text-decoration: underline;
+    }
+nav {
+	position: fixed;
+    width: 200px;
+    height: 82%;
+    overflow: auto;
+}
+nav ul, footer ul {
+	list-style-type: none;
+    margin: 30px;
+    padding: 0;
+}
+nav ul li, footer ul li {
+	padding: 5px;
+}
+
+.langkw {
+	color: white;
+    background-color: black;
+    display: inline;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.langen {
+	color: white;
+    background-color: gray;
+    display: inline;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.langen:hover {
+	color: white;
+    background-color: black;
+    cursor: crosshair;
+}
+
+nav a:hover, footer a:hover {
+    text-decoration: underline;
+    background: #e6e6e6;
+    }
+
+.container {
+	position: relative;
+    left: 200px;
+    width: 70%;
+    padding: 30px 30px 30px 10px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    -webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+   }    
+
+h1:hover {
+    color: silver;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    }
+
+p {
+	text-align: justify;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    }
+
+ol, ul {
+	text-align: justify;
+}
+    
+.bibentry {
+	padding-left: 22px ;
+    text-indent: -22px ;
+	text-align: left;
+	}
+
+.tooltip {
+	border-bottom: 1px dashed;
+}
+
+blockquote {
+	font-style: italic;
+    border-left: 2px solid silver;
+    padding: 0 0 0 8px;
+   }
+blockquote i, blockquote em {
+	font-style: normal;
+   }
+.noit {
+	font-style: normal;
+    padding: 0;
+    border: none;
+   }
+.noit i, .noit em {
+	font-style: italic;
+   }
+
+figure {
+	border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    margin: auto;
+    padding: 0.5em;
+   }
+
+img {
+    width: 100%;
+   }
+
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 200px;
+    height: 30%;
+   }
+   
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+@media (max-width: 810px) {
+    nav {
+	border-bottom: 1px solid #737373;
+	position: static;
+	width: 100%;
+	height: auto;
+    }
+    nav ul, footer ul {
+    line-height: 50px;
+}
+nav ul li, footer ul li {
+    display: inline;
+    background: #f2f2f2;
+    margin: 10px;
+}
+nav a:hover, footer a:hover {
+    background: #f2f2f2;
+    }
+.container {
+    padding: 30px 10px 30px 10px;
+    margin: 0;
+	position: static;
+	left: auto;
+	width: 100%;
+}
+footer {
+	border-top: 1px solid #737373;
+	position: static;
+	width: 100%;
+	height: auto;
+   }
+}
+
+</style>
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Raleway" rel="stylesheet">
+</head>
+<body>
+<nav>
+	    		<div class="en">
+                <ul>
 	        	<li><a href="/">Home</a></li>
 	        	<li><a href="/cv">CV</a></li>
         		<li><a href="/resources">Resources</a></li>
         		<li><a href="/news">Blog</a></li>
 			<li><a href="/papers">Papers</a></li>
 	    		</ul>
+                </div>
+                <div class="kw">
+                <ul>
+	        	<li><a href="/">Tre</a></li>
+	        	<li><a href="/cv">CV</a></li>
+        		<li><a href="/resources">Tacklow</a></li>
+        		<li><a href="/news">Scryfow</a></li>
+			<li><a href="/papers">Paperow</a></li>
+	    		</ul>
+                </div>
 			</nav>
 			<div class="container">
 			
@@ -22,10 +415,61 @@
 			
 			</div><!-- /.container -->
 			<footer>
+            <div class="en">
 	    		<ul>
+                <li class="langen" onclick="reStyle(0)">en</li>
+                <li class="langkw" onclick="reStyle(1)">kw</li></ul><ul>
 	        		<li><a href="mailto:mdaviesdeacon01@qub.ac.uk">email</a></li>
         		<li><a href="http://www.twitter.com/merryndd">@merryndd</a></li>
 				</ul>
+                </div>
+                <div class="kw">
+	    		<ul>
+                <li class="langen" onclick="reStyle(0)">en</li>
+                <li class="langkw" onclick="reStyle(1)">kw</li></ul><ul>
+	        		<li><a href="mailto:mdaviesdeacon01@qub.ac.uk">e-post</a></li>
+        		<li><a href="http://www.twitter.com/merryndd">@merryndd</a></li>
+				</ul>
+                </div>
 			</footer>
-		</body>
-	</html>
+<script>
+
+function noStyles() {
+    document.styleSheets[0].disabled = true;
+    document.styleSheets[1].disabled = true;
+}
+
+function reStyle(n) {
+    noStyles()
+    document.styleSheets[n].disabled = false;
+}
+
+function closeBlackdiv() {
+    var blackdiv, stylediv;
+    blackdiv = document.getElementById("blackdiv")
+    blackdiv.parentNode.removeChild(blackdiv);
+    stylediv = document.getElementById("stylediv")
+    stylediv.parentNode.removeChild(stylediv);
+}
+
+function showStyle(n) {
+var div, text, blackdiv;
+blackdiv = document.createElement("DIV");
+blackdiv.setAttribute("style","background-color:#000000;position:absolute;width:100%;height:100%;top:0;opacity:0.5;margin-left:-20px;");
+blackdiv.setAttribute("id","blackdiv");
+blackdiv.setAttribute("onclick","closeBlackdiv()");
+document.body.appendChild(blackdiv);
+div = document.createElement("DIV");
+div.setAttribute("id","stylediv");
+div.setAttribute("style","background-color:#ffffff;padding-left:5px;position:absolute;width:auto;height:auto;top:100px;bottom:50px;left:200px;right:200px;overflow:auto;font-family: monospace; white-space: pre;line-height:16px;");
+text = document.createTextNode(document.getElementsByTagName("STYLE")[n].innerHTML);
+div.appendChild(text);
+document.body.appendChild(div);
+//alert(document.getElementsByTagName("STYLE")[n].innerHTML);
+}
+reStyle(0);
+
+</script>
+
+</body>
+</html>
