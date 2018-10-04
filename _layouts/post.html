@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="en">
-<h1>{% if page.titleeng = "pass" %}
+<h1>{% if page.titleeng == "pass" %}
       {{ page.title }}
     {% else %}
       {{ page.titleeng }}
@@ -15,7 +15,7 @@ layout: default
 </div>
 
 <div class="kw">
-<h1>{% if page.titlecorn = "pass" %}
+<h1>{% if page.titlecorn == "pass" %}
       {{ page.title }}
     {% else %}
       {{ page.titlecorn }}
