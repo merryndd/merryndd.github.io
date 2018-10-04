@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="en">
-<h1>{{ page.titleeng }}</h1>
+<h1>{% if page.titleeng = "pass" %}
+      {{ page.title }}
+    {% else %}
+      {{ page.titleeng }}
+    {% endif %}</h1>
 <p class="meta"><i>{{ page.date | date: "%-d %B %Y" }}</i></p>
 
 <div class="post">
@@ -11,7 +15,11 @@ layout: default
 </div>
 
 <div class="kw">
-<h1>{{ page.titlecorn }}</h1>
+<h1>{% if page.titlecorn = "pass" %}
+      {{ page.title }}
+    {% else %}
+      {{ page.titlecorn }}
+    {% endif %}</h1>
 <p class="meta"><i>{% assign m = page.date | date: "%-m" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
