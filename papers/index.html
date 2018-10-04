@@ -9,7 +9,15 @@ title: Merryn Davies-Deacon
 
 	  {% for post in site.categories.papers %}
 		{% if post.url %}
-	    <li><span>{{ post.date | date: "%-d %B %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ post.date | date: "%-d %B %Y" }}</span> » <a href="{{ post.url }}" title="{% if post.titleeng == empty %}
+        {{ post.title }}</h1>
+  {% else %}
+        {{ post.titleeng }}
+  {% endif %}">{% if post.titleeng == empty %}
+        {{ post.title }}</h1>
+  {% else %}
+        {{ post.titleeng }}
+  {% endif %}</a></li>
 	  {% endif %}
 		{% endfor %}
 	</ul>
@@ -37,7 +45,15 @@ title: Merryn Davies-Deacon
   {% when '11' %}mis Du
   {% when '12' %}mis Kevardhu
 {% endcase %}
-{{ post.date | date: "%Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{{ post.date | date: "%Y" }}</span> » <a href="{{ post.url }}" title="{% if post.titlecorn == empty %}
+        {{ post.title }}</h1>
+  {% else %}
+        {{ post.titlcorn }}
+  {% endif %}">{% if post.titlecorn == empty %}
+        {{ post.title }}</h1>
+  {% else %}
+        {{ post.titlecorn }}
+  {% endif %}</a></li>
 	  {% endif %}
 		{% endfor %}
 	</ul>
