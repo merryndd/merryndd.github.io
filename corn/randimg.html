@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>images</title>
+<style type="text/css">
+img { border:none; }
+</style>
+<script type="text/javascript">
+var random_images_array = ['beister.png', 'benyn.png', 'bord.png', 'cath.png', 'cota.png', 'daras.png', 'davas.png', 'den.png', 'gwedhen.png', 'gwely.png', 'kenter.png', 'keus.png', 'maw2.png', 'melwhen.png', 'morthol.png', 'mowes2.png', 'tan.png', 'tesen.png'];
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'img/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+}
 
+</script>
+</head>
+<body>
+<script type="text/javascript">getRandomImage(random_images_array, 'img/')</script>
+</body>
+</html>
