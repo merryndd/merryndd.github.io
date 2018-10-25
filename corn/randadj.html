@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>
+Nouns and adjectives
+</title>
+<script>
+var nouns = ["den", "benyn", "maw", "mowes", "bord", "beister", "cota", "cath", "daras", "davas", "gwely", "gwedhen", "keus", "kenter", "morthol", "melwhen", "podik", "pel", "tan", "tesen"];
+
+var getRandomNoun = function () {
+    return nouns[Math.floor(Math.random() * nouns.length)];
+};
+
+var noun = getRandomNoun();
+
+document.getElementById("noun").innerHTML = "Noun: " + noun;
+
+/* adjectives */
+
+var adjs = ["berr", "cott", "hir", "coth", "nowedh", "yonk", "skianjek", "sogh", "lebm", "es", "medhel", "calish", "broas", "bian", "meur", "wheg", "wherow", "trenk", "sellys", "gwydn", "du", "hujes", "munys", "scav", "poos", "tanow", "pals", "crev", "gwadn", "da", "drog", "glan", "plos", "hager", "teg", "ydn", "ledan", "lowen", "truedhek", "spladn", "tewl", "fur", "gocky", "ughel", "isel", "gwir", "anwir", "tobm", "yeyn"];
+
+var getRandomAdj = function () {
+    return adjs[Math.floor(Math.random() * adjs.length)];
+};
+
+var adj = getRandomAdj();
+
+document.getElementById("adj").innerHTML = "Adjective: " + adj;
+</script>
+<style>
+div {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20pt;
+}
+</style>
+</head>
+<body>
+<div id="noun"></div>
+<div id="adj"></div>
+</body>
+</html>
