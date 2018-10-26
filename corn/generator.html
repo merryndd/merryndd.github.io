@@ -6,7 +6,7 @@
 body {
 	width:60%;
     margin: 40px auto 0 auto;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 20px 20px;
     font-family: 'Raleway', sans-serif;
     border: 2px solid black;
     }
@@ -22,14 +22,14 @@ body {
     }
 .prose {
 	font-weight:bold;
-	}
+    }
 button {
 	color:white;
     background-color:gray;
     font-family: 'Raleway', sans-serif;
     }
 </style>
-<script type="text/javascript">
+<script>
 function show1() {
     var x = document.getElementById("thesentences");
     if (x.style.display !== "block") {
@@ -77,12 +77,17 @@ function show2() {
         c.style.display = "none";
     }
 }
+
+function reloader() {
+    location.reload();
+}
+
 </script>
 </head>
 <body>
 
 <div id="preamble">
-<p>Here are a randomly generated Cornish noun and adjective, and a number. Think about how these can be combined to form sentences. To see some example sentences, click the button below.</p>
+<p>Here are a randomly generated Cornish noun and adjective, and a number. Think about how these can be combined to form sentences. To see some example sentences, click the first button below. Or you can load some new data by clicking the second button.</p>
 </div>
 <div id="inputs">
 <p id="nouncorn"></p>
@@ -101,6 +106,7 @@ function show2() {
 <p hidden id="numblen"></p>
 </div>
 <button onclick="show1()">Toggle sentences</button>
+<button onclick="reloader()">Get new data</button>
 <div id="thesentences">
 <hr/>
 <p>
@@ -121,11 +127,8 @@ function show2() {
 </div>
 <button onclick="show2()">Toggle translations</button>
 </div>
-<div id="addendum">
-<p>You can refresh the page to load some different data.</p>
-</div>
 
-<script type="text/javascript">
+<script>
 
 /*Nouns*/
 
