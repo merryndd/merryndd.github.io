@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="http://fiddle.jshell.net/js/lib/dummy.js"
+    
+  ></script>
+
+  <style type="text/css">
+    div {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20pt;
+}
+  </style>
+
+  <script type="text/javascript">
+    window.onload=function(){
+      
+var nouns = ["me", "you (singular)", "him", "her", "it", "us", "you (plural)", "them"];
+var getRandomNoun = function () {
+    return nouns[Math.floor(Math.random() * nouns.length)];
+};
+var noun = getRandomNoun();
+document.getElementById("noun").innerHTML = "Who? " + noun;
+var sents = ["normal", "question", "negative"];
+var getRandomSent = function () {
+    return sents[Math.floor(Math.random() * sents.length)];
+};
+var sent = getRandomSent();
+document.getElementById("sent").innerHTML = "Sentence type: " + sent;
+var verbs = ["moas", "gwul", "bryjyon", "doas", "goffos", "cawas", "convedhes", "crejy"];
+var getRandomVerb = function () {
+    return verbs[Math.floor(Math.random() * verbs.length)];
+};
+var verb = getRandomVerb();
+document.getElementById("verb").innerHTML = "Verb: " + verb;
+    }
+</script>
+
+</head>
+<body>
+  <div id="noun"></div>
+<div id="sent"></div>
+<div id="verb"></div>
+ 
+</body>
+</html>
