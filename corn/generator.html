@@ -133,7 +133,7 @@ function reloader() {
 
 /*Nouns*/
 
-var barenouns = ["den", "benyn", "maw", "mowes", "bord", "beister", "cota", "cath", "daras", "davas", "gwely", "gwedhen", "keus", "kenter", "morthol", "melwhen", "podik", "pel", "tan", "tesen", "kei", "kist"];
+var barenouns = ["den", "benyn", "maw", "mowes", "bord", "beister", "cota", "cath", "daras", "davas", "gwely", "gwedhen", "keus", "kenter", "morthol", "melwhen", "podik", "pel", "tan", "tesen", "kei", "kist", "cador", "cador vregh", "chei", "chymbla", "cornel", "coweth", "cunys", "daffar", "cres", "esedhva", "fos", "kegin", "knouk", "lestrier", "oles", "portal", "roum", "tal", "tenewen"];
 var getRandomNoun = function () {
     return barenouns[Math.floor(Math.random() * barenouns.length)];
 };
@@ -163,6 +163,25 @@ var nounlist = {
         {"cornish":"tesen","gender":"f","english":"biscuit","engpl":null,},
         {"cornish":"kei","gender":"m","english":"dog","engpl":null,},
         {"cornish":"kist","gender":"f","english":"box","engpl":"boxes",},  
+	    {"cornish":"cador","gender":"f","english":"chair","engpl":null,},
+	    {"cornish":"cador vregh","gender":"f","english":"armchair","engpl":null,},
+	    {"cornish":"chei","gender":"m","english":"house","engpl":null,},
+	    {"cornish":"chymbla","gender":"m","english":"chimney","engpl":null,},
+	    {"cornish":"cornel","gender":"f","english":"corner","engpl":null,},
+	    {"cornish":"coweth","gender":"m","english":"friend","engpl":null,},
+	    {"cornish":"cunys","gender":"m","english":"firewood","engpl":"groups of firewood",},
+	    {"cornish":"daffar","gender":"m","english":"equipment","engpl":"pieces of equipment",},
+	    {"cornish":"cres","gender":"m","english":"middle","engpl":null,},
+	    {"cornish":"esedhva","gender":"m","english":"living room","engpl":null,},
+	    {"cornish":"fos","gender":"f","english":"wall","engpl":null,},
+	    {"cornish":"kegin","gender":"f","english":"kitchen","engpl":null,},
+	    {"cornish":"knouk","gender":"m","english":"knock","engpl":null,},
+	    {"cornish":"lestrier","gender":"m","english":"dresser","engpl":null,},
+	    {"cornish":"oles","gender":"f","english":"hearth","engpl":null,},
+	    {"cornish":"portal","gender":"m","english":"porch","engpl":"porches",},
+	    {"cornish":"roum","gender":"m","english":"room","engpl":null,},
+	    {"cornish":"tal","gender":"f","english":"front","engpl":null,},
+	    {"cornish":"tenewen","gender":"m","english":"side","engpl":null,},
     ],
 };
 
@@ -197,7 +216,7 @@ document.getElementById("nounengpl").innerHTML = "English plural: " + testworden
 
 /*Adjectives*/
 
-var bareadjs = ["berr", "cott", "hir", "coth", "nowedh", "yonk", "skianjek", "sogh", "lebm", "es", "medhel", "calish", "broas", "bian", "meur", "wheg", "wherow", "trenk", "sellys", "gwydn", "du", "munys", "scav", "poos", "tanow", "pals", "crev", "gwadn", "da", "drog", "glan", "plos", "teg", "ydn", "ledan", "lowen", "truedhek", "spladn", "tewl", "fur", "gocky", "ughel", "isel", "gwir", "anwir", "tobm", "yeyn"];
+var bareadjs = ["berr", "cott", "hir", "coth", "nowedh", "yonk", "skianjek", "sogh", "lebm", "es", "medhel", "calish", "broas", "bian", "meur", "wheg", "wherow", "trenk", "sellys", "gwydn", "du", "munys", "scav", "poos", "tanow", "pals", "crev", "gwadn", "da", "drog", "glan", "plos", "teg", "ydn", "ledan", "lowen", "truedhek", "spladn", "tewl", "fur", "gocky", "ughel", "isel", "gwir", "anwir", "tobm", "yeyn", "clys", "goles", "ygerys"];
 var getRandomAdj = function () {
     return bareadjs[Math.floor(Math.random() * bareadjs.length)];
 };
@@ -252,6 +271,9 @@ var adjlist = {
         {"cornish":"gwir","english":"true",},
         {"cornish":"anwir","english":"untrue",},
         {"cornish":"isel","english":"low",},
+	    {"cornish":"clys","english":"comfortable",},
+	    {"cornish":"goles","english":"low",},
+	    {"cornish":"ygerys","english":"open",},
 ],
 };
 
