@@ -453,7 +453,14 @@ if (testadjeng.charAt(0) == "a") {
     engindef = "a";
 };
 
-var xyeweng = engpronoun + " " + engindef + " " + testadjeng + " " + testwordeng + ".";
+var xyeweng = {}
+if (testword == "daffar") {
+    xyeweng = engpronoun + " " + testadjeng + " " + testwordeng + ".";
+} else if (testword == "cunys") {
+    xyeweng = engpronoun + " " + testadjeng + " " + testwordeng + ".";
+} else {
+    xyeweng = engpronoun + " " + engindef + " " + testadjeng + " " + testwordeng + ".";
+};
 
 document.getElementById("sentence2").innerHTML = xyew;
 document.getElementById("sentence2eng").innerHTML = xyeweng;
