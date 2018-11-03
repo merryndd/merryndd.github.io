@@ -169,8 +169,8 @@ var nounlist = {
 	    {"cornish":"chymbla","gender":"m","english":"chimney","engpl":null,},
 	    {"cornish":"cornel","gender":"f","english":"corner","engpl":null,},
 	    {"cornish":"coweth","gender":"m","english":"friend","engpl":null,},
-	    {"cornish":"cunys","gender":"m","english":"firewood","engpl":"groups of firewood",},
-	    {"cornish":"daffar","gender":"m","english":"equipment","engpl":"pieces of equipment",},
+	    {"cornish":"cunys","gender":"m","english":"firewood","engpl":"coll",},
+	    {"cornish":"daffar","gender":"m","english":"equipment","engpl":"coll",},
 	    {"cornish":"cres","gender":"m","english":"middle","engpl":null,},
 	    {"cornish":"esedhva","gender":"m","english":"living room","engpl":null,},
 	    {"cornish":"fos","gender":"f","english":"wall","engpl":null,},
@@ -199,6 +199,8 @@ var engversionpl = {};
 nounlist.nouns.forEach(function (item) {
 if (item.engpl == null) {
     engversionpl[item.cornish] = item.english + "s";
+} else if (item.engpl == "coll") {
+	engversionpl[item.cornish] = "sets of " + item.english;
 } else { 
     engversionpl[item.cornish] = item.engpl;
 }
@@ -454,9 +456,7 @@ if (testadjeng.charAt(0) == "a") {
 };
 
 var xyeweng = {}
-if (testword == "daffar") {
-    xyeweng = engpronoun + " " + testadjeng + " " + testwordeng + ".";
-} else if (testword == "cunys") {
+if (testwordengpl.startsWith("sets of")) {
     xyeweng = engpronoun + " " + testadjeng + " " + testwordeng + ".";
 } else {
     xyeweng = engpronoun + " " + engindef + " " + testadjeng + " " + testwordeng + ".";
