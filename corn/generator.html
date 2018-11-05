@@ -485,7 +485,11 @@ if (testnumb == "udn") {
 
 var ma0eng = {};
 if (testnumb == "udn") {
-    ma0eng = "There is one " + testwordeng + ".";
+	if (testwordengpl.startsWith("sets of")) {
+		ma0eng = "There is one set of " + testwordeng + ".";
+	} else { 
+		ma0eng = "There is one " + testwordeng + ".";
+	}; 
 } else { 
     ma0eng = "There are " + testnumbeng + " " + testwordengpl + ".";
 };
