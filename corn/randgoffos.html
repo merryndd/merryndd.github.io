@@ -37,7 +37,7 @@ var getRandomSent = function () {
     return sents[Math.floor(Math.random() * sents.length)];
 };
 var sent = getRandomSent();
-
+document.getElementById("sent").innerHTML = "Type: " + sent;
 var tenses = ["present", "past"];
 var getRandomTense = function () {
     return tenses[Math.floor(Math.random() * tenses.length)];
