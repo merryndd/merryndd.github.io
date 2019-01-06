@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="en">
+    <h1>
+        {% if page.titleeng == "pass" %}
+        {{ page.title }}
+        {% else %}
+        {{ page.titleeng }}
+        {% endif %}
+    </h1>
+    <p class="meta">
+        <i>{{ page.date | date: "%-d %B %Y" }}</i>
+    </p>
+</div>
+<div class="kw">
+    <h1>
+        {% if page.titlecorn == "pass" %}
+        {{ page.title }}
+        {% else %}
+        {{ page.titlecorn }}
+        {% endif %}
+    </h1>
+    <p class="meta">
+        <i>{% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+        {% when '1' %}mis Genver
+        {% when '2' %}mis Whevrel
+        {% when '3' %}mis Meur’
+        {% when '4' %}mis Ebrel
+        {% when '5' %}mis Me
+        {% when '6' %}mis Efen
+        {% when '7' %}mis Gorefen
+        {% when '8' %}mis Est
+        {% when '9' %}mis Gwyngala
+        {% when '10' %}mis Hedra
+        {% when '11' %}mis Du
+        {% when '12' %}mis Kevardhu
+        {% endcase %}
+        {{ page.date | date: "%Y" }}</i>
+    </p>
+</div>
+<div class="post">
+    <p class="en"><a href={{ page.eventurl }}>{% if page.eventeng == "pass" %}{{ page.event }}{% else %}{{ page.eventeng }}{% endif %}</a>, {% if page.locationeng == "pass" %}{{ page.location }}{% else %}{{ page.locationeng }}{% endif %}, date placeholder</p>
+    <p class="kw"><a href={{ page.eventurl }}>{% if page.eventcorn == "pass" %}{{ page.event }}{% else %}{{ page.eventcorn }}{% endif %}</a>, {% if page.locationcorn == "pass" %}{{ page.location }}{% else %}{{ page.locationcorn }}{% endif %}, date placeholder</p>
+
+{{ content }}
+
+<div class="en">
+<h3>Downloads</h3>
+{% if page.writeupurl %}
+  <p>  <a href={{ page.writeupurl }}>Written-up version of this presentation</a></p>
+{% endif %}
+{% if page.slidesurl %}
+  <p>  <a href={{ page.slidesurl }}>Slides</a></p>
+{% endif %}
+</div>
+<div class="kw">
+<h3>Iscargow</h3>
+{% if page.writeupurl %}
+  <p>  <a href={{ page.writeupurl }}>Versyon scrifys a’n cows ma</a></p>
+{% endif %}
+{% if page.slidesurl %}
+  <p>  <a href={{ page.slidesurl }}>Imajys towlys</a></p>
+{% endif %}
+</div>
+
+{% if page.abstract %}
+<h3 class="en">Abstract</h2>
+<h3 class="kw">Berrscrif</h2>
+    {% include {{ page.abstract }} %}
+{% endif %}
+{% if page.bib %}
+<h3 class="en">References</h2>
+<h3 class="kw">Scrifow a wrugav gwul mencyon anedhans</h2>
+    {% include {{ page.bib }} %}
+{% endif %}
+</div>

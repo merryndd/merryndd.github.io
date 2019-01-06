@@ -8,3 +8,7 @@ defaults:
     values:
       titlecorn: "pass"
       titleeng: "pass"
+      eventcorn: "pass"
+      eventeng: "pass"
+      locationcorn: "pass"
+      eventeng: "pass"
