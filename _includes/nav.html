@@ -1,0 +1,20 @@
+<nav>
+    <div class="en">
+        <ul>
+            {% for item in site.data.nav %}
+                <li>
+                    <a href="{{ item.link }}">{{ item.enname }}</a>
+                </li>
+            {% endfor %}
+        <ul>
+    </div>
+    <div class="kw">
+        <ul>
+            {% for item in site.data.nav %}
+                <li>
+                    <a href="{{ item.link }}">{{ item.kwname }}</a>
+                </li>
+            {% endfor %}
+        <ul>
+    </div>
+</nav>

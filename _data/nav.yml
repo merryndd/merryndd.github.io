@@ -1,0 +1,15 @@
+- enname: Home
+  kwname: Tre
+  link: /
+- enname: CV
+  kwname: CV
+  link: /cv
+- enname: Resources
+  kwname: Asnodhow
+  link: /resources
+- enname: Blog
+  kwname: Nowodhow
+  link: /news
+- enname: Papers
+  kwname: Cowsow
+  link: /papers
