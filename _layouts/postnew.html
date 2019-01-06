@@ -42,8 +42,8 @@ layout: default
     </p>
 </div>
 <div class="post">
-    <p class="en"><a href={{ page.eventurl }}>{% if page.eventeng %}{{ page.eventeng }}{% else %}{{ page.event }}{% endif %}</a>, {% if page.locationeng == "pass" %}{{ page.location }}{% else %}{{ page.locationeng }}{% endif %}, date placeholder</p>
-    <p class="kw"><a href={{ page.eventurl }}>{% if page.eventcorn %}{{ page.eventcorn }}{% else %}{{ page.event }}{% endif %}</a>, {% if page.locationcorn == "pass" %}{{ page.location }}{% else %}{{ page.locationcorn }}{% endif %}, date placeholder</p>
+    <p class="en"><i><a href={{ page.eventurl }}>{% if page.eventeng %}{{ page.eventeng }}{% else %}{{ page.event }}{% endif %}</a></i>, {% if page.locationeng %}{{ page.locationeng }}{% else %}{{ page.location }}{% endif %}, {% if page.startdate %}{{ page.startdate | date: "%-d" }}–{{ page.enddate | date: "%-d %B %Y" }}{% else %}{{ page.date | date: "%-d %B %Y" }}{% endif %}</p>
+    <p class="kw"><i><a href={{ page.eventurl }}>{% if page.eventcorn %}{{ page.eventcorn }}{% else %}{{ page.event }}{% endif %}</a></i>, {% if page.locationcorn %}{{ page.locationcorn }}{% else %}{{ page.location }}{% endif %}, {% if page.startdate %}{{ page.startdate | date: "%-d" }}–{% assign m = page.enddate | date: "%-m" %}{{ page.enddate | date: "%-d" }} {% case m %} {% when '1' %}mis Genver{% when '2' %}mis Whevrel{% when '3' %}mis Meur’{% when '4' %}mis Ebrel{% when '5' %}mis Me{% when '6' %}mis Efen{% when '7' %}mis Gorefen{% when '8' %}mis Est{% when '9' %}mis Gwyngala{% when '10' %}mis Hedra{% when '11' %}mis Du{% when '12' %}mis Kevardhu{% endcase %} {{ page.enddate | date: "%Y" }}{% else %}{% assign m = page.date | date: "%-m" %} {{ page.date | date: "%-d" }} {% case m %} {% when '1' %}mis Genver{% when '2' %}mis Whevrel{% when '3' %}mis Meur’{% when '4' %}mis Ebrel{% when '5' %}mis Me{% when '6' %}mis Efen{% when '7' %}mis Gorefen{% when '8' %}mis Est{% when '9' %}mis Gwyngala{% when '10' %}mis Hedra{% when '11' %}mis Du{% when '12' %}mis Kevardhu{% endcase %} {{ page.date | date: "%Y" }}{% endif %}</p>
 
 {{ content }}
 
