@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Merryn Davies-Deacon</title>
-<link rel="stylesheet" type="text/css" href="/css/main.css"/>
-<link rel="stylesheet" type="text/css" href="/css/english.css" title="default" />
-<link rel="alternate stylesheet" type="text/css" href="/css/cornish.css" title="alternate" />
-<script type="text/javascript" src="/scripts/styleswitcher.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Raleway:400,400i,800" rel="stylesheet">
-</head>
-<body>
-{% include nav.html %}
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-                <li class="langpoint"><a class="langen" href="#" onclick="setActiveStyleSheet('default'); return false;">en</a></li>
-                <li class="langpoint"><a class="langkw" href="#" onclick="setActiveStyleSheet('alternate'); return false;">kw</a></li></ul><ul>
-	        		<li class="en"><a href="mailto:mdaviesdeacon01@qub.ac.uk">email</a></li>
-				<li class="kw"><a href="mailto:mdaviesdeacon01@qub.ac.uk">ebost</a></li>
-        		<li><a href="http://www.twitter.com/merryndd">@merryndd</a></li>
-				</ul>
-                
-			</footer>
-
-
-</body>
+    <head>
+        <title>Merryn Davies-Deacon</title>
+        <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/english.css" title="default" />
+        <link rel="alternate stylesheet" type="text/css" href="/css/cornish.css" title="alternate" />
+        <script type="text/javascript" src="/scripts/styleswitcher.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Raleway:400,400i,800" rel="stylesheet">
+    </head>
+    <body>
+        {% include nav.html %}
+        <div class="container">
+            {{ content }}
+        </div><!-- /.container -->
+        {% include footer.html %}
+    </body>
 </html>
