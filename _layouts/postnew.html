@@ -3,10 +3,10 @@ layout: default
 ---
 <div class="en">
     <h1>
-        {% if page.titleeng == "pass" %}
-        {{ page.title }}
-        {% else %}
+        {% if page.titleeng %}
         {{ page.titleeng }}
+        {% else %}
+        {{ page.title }}
         {% endif %}
     </h1>
     <p class="meta">
@@ -15,10 +15,10 @@ layout: default
 </div>
 <div class="kw">
     <h1>
-        {% if page.titlecorn == "pass" %}
-        {{ page.title }}
-        {% else %}
+        {% if page.titlecorn %}
         {{ page.titlecorn }}
+        {% else %}
+        {{ page.title }}
         {% endif %}
     </h1>
     <p class="meta">
@@ -42,8 +42,8 @@ layout: default
     </p>
 </div>
 <div class="post">
-    <p class="en"><a href={{ page.eventurl }}>{% if page.eventeng == "pass" %}{{ page.event }}{% else %}{{ page.eventeng }}{% endif %}</a>, {% if page.locationeng == "pass" %}{{ page.location }}{% else %}{{ page.locationeng }}{% endif %}, date placeholder</p>
-    <p class="kw"><a href={{ page.eventurl }}>{% if page.eventcorn == "pass" %}{{ page.event }}{% else %}{{ page.eventcorn }}{% endif %}</a>, {% if page.locationcorn == "pass" %}{{ page.location }}{% else %}{{ page.locationcorn }}{% endif %}, date placeholder</p>
+    <p class="en"><a href={{ page.eventurl }}>{% if page.eventeng %}{{ page.eventeng }}{% else %}{{ page.event }}{% endif %}</a>, {% if page.locationeng == "pass" %}{{ page.location }}{% else %}{{ page.locationeng }}{% endif %}, date placeholder</p>
+    <p class="kw"><a href={{ page.eventurl }}>{% if page.eventcorn %}{{ page.eventcorn }}{% else %}{{ page.event }}{% endif %}</a>, {% if page.locationcorn == "pass" %}{{ page.location }}{% else %}{{ page.locationcorn }}{% endif %}, date placeholder</p>
 
 {{ content }}
 

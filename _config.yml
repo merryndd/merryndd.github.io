@@ -1,14 +1,3 @@
 name: Merryn
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
-defaults:
-  -
-    scope:
-      path: "_posts"
-    values:
-      titlecorn: "pass"
-      titleeng: "pass"
-      eventcorn: "pass"
-      eventeng: "pass"
-      locationcorn: "pass"
-      eventeng: "pass"

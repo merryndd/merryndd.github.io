@@ -3,10 +3,10 @@ layout: default
 ---
 <div class="en">
     <h1>
-        {% if page.titleeng == "pass" %}
-        {{ page.title }}
-        {% else %}
+        {% if page.titleeng %}
         {{ page.titleeng }}
+        {% else %}
+        {{ page.title }}
         {% endif %}
     </h1>
     <p class="meta">
@@ -15,10 +15,10 @@ layout: default
 </div>
 <div class="kw">
     <h1>
-        {% if page.titlecorn == "pass" %}
-        {{ page.title }}
-        {% else %}
+        {% if page.titlecorn %}
         {{ page.titlecorn }}
+        {% else %}
+        {{ page.title }}
         {% endif %}
     </h1>
     <p class="meta">
