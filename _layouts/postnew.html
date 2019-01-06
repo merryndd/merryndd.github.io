@@ -52,8 +52,17 @@ layout: default
 {% if page.writeupurl %}
   <p>  <a href={{ page.writeupurl }}>Written-up version of this presentation</a></p>
 {% endif %}
+{% if page.publicationurl %}
+  <p>  <a href={{ page.publicationurl }}>Publication that resulted from this presentation</a></p>
+{% endif %}
 {% if page.slidesurl %}
   <p>  <a href={{ page.slidesurl }}>Slides</a></p>
+{% endif %}
+{% if page.slidesnotesurl %}
+  <p>  <a href={{ page.slidesnotesurl }}>Slides with notes</a></p>
+{% endif %}
+{% if page.dissurl %}
+  <p>  <a href={{ page.dissurl }}>The dissertation on which this paper was based ({{ page.dissyear }})</a></p>
 {% endif %}
 </div>
 <div class="kw">
@@ -61,8 +70,17 @@ layout: default
 {% if page.writeupurl %}
   <p>  <a href={{ page.writeupurl }}>Versyon scrifys a’n cows ma</a></p>
 {% endif %}
+{% if page.publicationurl %}
+  <p>  <a href={{ page.publicationurl }}>Erthygel a wrug doas mes a’n cows ma</a></p>
+{% endif %}
 {% if page.slidesurl %}
   <p>  <a href={{ page.slidesurl }}>Imajys towlys</a></p>
+{% endif %}
+{% if page.slidesnotesurl %}
+  <p>  <a href={{ page.slidesnotesurl }}>Imajys towlys ha notednow</a></p>
+{% endif %}
+{% if page.dissurl %}
+  <p>  <a href={{ page.dissurl }}>An dornscrif ujy an cows ma fondyes warnodho ({{ page.dissyear }})</a></p>
 {% endif %}
 </div>
 
