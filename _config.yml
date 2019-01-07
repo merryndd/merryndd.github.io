@@ -1,4 +1,2 @@
-name: Merryn
 markdown: kramdown
-permalink: /news/:year/:month/:day/:title
 future: true
