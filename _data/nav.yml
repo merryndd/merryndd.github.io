@@ -1,15 +1,15 @@
 - enname: Home
   kwname: Tre
   link: /
-- enname: CV
-  kwname: CV
-  link: /cv
 - enname: Resources
   kwname: Asnodhow
   link: /resources
 - enname: Blog
   kwname: Nowodhow
   link: /blog
-- enname: Papers
+- enname: Presentations
   kwname: Cowsow
   link: /papers
+- enname: Publications
+  kwname: Dyllanjow
+  link: /publications
