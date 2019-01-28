@@ -3,13 +3,13 @@
   link: /
 - enname: Resources
   kwname: Asnodhow
-  link: /resources
+  link: /site/resources
 - enname: Blog
   kwname: Nowodhow
-  link: /blog
+  link: /site/blog
 - enname: Presentations
   kwname: Cowsow
-  link: /papers
+  link: /site/papers
 - enname: Publications
   kwname: Dyllanjow
-  link: /publications
+  link: /site/publications

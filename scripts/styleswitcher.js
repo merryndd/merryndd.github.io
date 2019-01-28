@@ -27,18 +27,18 @@ function getPreferredStyleSheet() {
   return null;
 }
 
-function createCookie(name,value,days) {
+function createCookie(name1,value,days) {
   if (days) {
     var date = new Date();
     date.setTime(date.getTime()+(days*24*60*60*1000));
     var expires = "; expires="+date.toGMTString();
   }
   else expires = "";
-  document.cookie = name+"="+value+expires+"; path=/";
+  document.cookie = name1+"="+value+expires+"; path=/site";
 }
 
-function readCookie(name) {
-  var nameEQ = name + "=";
+function readCookie(name1) {
+  var nameEQ = name1 + "=";
   var ca = document.cookie.split(';');
   for(var i=0;i < ca.length;i++) {
     var c = ca[i];
