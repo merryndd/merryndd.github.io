@@ -1,9 +1,6 @@
 - enname: Home
   kwname: Tre
   link: /site/index
-- enname: Resources
-  kwname: Asnodhow
-  link: /site/resources
 - enname: Blog
   kwname: Nowodhow
   link: /site/blog
