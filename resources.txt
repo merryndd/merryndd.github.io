@@ -1,0 +1,166 @@
+All links work as of March 2019.
+
+* = maintained/hosted by me; let me know of any technical difficulties.
+** = created by me; let me know of any errors, additions, potential improvements, etc.
+
+CORNISH
+
+Bibliography
+** https://drive.google.com/open?id=1SpW8sWA51e6i3S5_tVmRdrI3POckJX76 General bibliography
+
+SWF/spelling controversy
+https://vimeo.com/70026143 documentary
+http://gwren-dyscryjy.blogspot.com/ critical commentary on spelling standardisation from anti-KK perspective
+http://www.kernewegva.com/PDFs/ Documents on spelling
+
+Language technology
+https://taklowkernewek.neocities.org/ David Trethewey’s website
+** https://drive.google.com/open?id=1QfiXd0dAGHo2_jBYJZc_lQhf8KEOwkdJ experimental spreadsheet to convert between orthographies
+
+Kernowek Standard/UCR
+http://golvan.evertype.com/ Nicholas Williams’ website
+http://kernowek.net/ Kernowek Standard
+** https://github.com/merryndd/ankidecks Anki deck with vocabulary from Clappya Kernowek
+
+Dictionaries and databases
+http://www.cornishdictionary.org.uk/ Official SWF dictionary
+http://www.cornishplacenames.co.uk/ Official place name versions
+* https://drive.google.com/open?id=1DReGbsUTW-twJuwVYTjE3DScMQlOnMRn selection of dictionaries
+** https://drive.google.com/file/d/1u5emUnVkELklZJYnR9ANSAYBfQSNkEVa/view?usp=sharing Idioms (SWF/LT)
+
+Traditional Cornish
+http://www.chianyeth.com/index.php?title=Texts tradcorn texts
+
+Modern Cornish
+http://nebesgeryow.blogspot.com/ Neil Kennedy’s blog (advanced texts in SWF/LT, some Kernowek Standard)
+http://studymoderncornish.blogspot.com/ lessons in post-Lhuydian orthography
+http://www.cusselantavaz.com/ Old Cussel website, post-Lhuydian orthography
+http://moderncornish.net/ New Cussel website, SWF/LT, less stuff
+http://latecornishlittlebits.blogspot.com/ Jan Lobb’s blog, SWF/LT (beginners’ texts)
+https://soundcloud.com/danny-prohaska Dan Prohaska’s audio course
+* https://drive.google.com/drive/folders/1X_vrJGd9y3aYEgcKZEx-1KOwoHYsnbro?usp=sharing Audio examples
+* https://drive.google.com/open?id=1t1mhi53-sj4EcoefWgydaqMuralzuitk Wmffre, Late Cornish
+
+Old books
+http://www.archive.org/stream/sketchofcornishg00norriala Norris: Sketch of Cornish grammar (1859)
+http://www.gutenberg.org/ebooks/26192 Jenner: A handbook of the Cornish language (1904)
+http://celticcornish.blogspot.com/ Celtic words in Cornish dialect
+* https://drive.google.com/open?id=1s1plACNOb3IiyS8F0vpYsDhM8cO0HsT4 Andrew Boorde
+* https://drive.google.com/file/d/0B59rvNSpIaPjQ1lRellLc1RndVU/view?usp=sharing Lhuyd (1704)
+
+Music
+https://mainlynorfolk.info/folk/books/canowkernow.html Canow Kernow
+http://www.kesson.com/tunery/index.php Kesson
+http://www.an-daras.com/home.htm An Daras
+http://ks4.imslp.info/files/imglnks/usimg/c/c6/IMSLP402595-PMLP315175-SomeAncientChristmasCarols_gilbert.pdf Carols from Cornwall, Devon, etc.
+http://www.bagpipesociety.org.uk/articles/1993/chanter/winter/the-cornish-bagpipes/ Cornish bagpipes
+
+Media
+https://anradyo.com/ weekly radio in Cornish
+https://www.youtube.com/watch?v=m67g3_B4a_w Kernowpalooza—TV programme in Modern Cornish from 1990s
+https://www.youtube.com/watch?v=sJXaObyKAhU Video of a wedding in Cornish in 1964
+https://www.amazon.co.uk/Pawl-Dunbars-Cornwall-Dunbar/dp/B06X1GSWH7 Pawl Dunbar’s Cornwall (pay to view)
+
+Politics
+https://www.scribd.com/user/10123330/The-Cornish-Republican/uploads various papers on politics/identity
+https://www.theyworkforyou.com/debates/?id=2018-06-11a.688.6 Parliamentary debate on Cornish identity/census tickbox
+
+BRETON
+
+many of these provided by Tanguy Solliec
+
+Bibliographies
+http://arbres.iker.cnrs.fr/index.php?title=La_Bretagne_Linguistique index to La Bretagne Linguistique
+http://cache.media.eduscol.education.fr/file/LV/43/5/RESS-LVR-CT_Breton_sujets_d_etude_248435.pdf materials for bac in breton (2013)
+http://loic.cheveau.free.fr/breton/breton_fr.htm bibliography on dialects
+
+Old films
+https://www.cinearchives.org/Films-447-61-0-0.html Breiz Nevez 1938
+https://vimeo.com/96682833 100 ans de la musique bretonne c. 2000
+https://vimeo.com/96682834 short film on the decline of breton
+* https://drive.google.com/open?id=0B59rvNSpIaPjU3lRejNsM3Bid1U Breton communists early 20th century
+
+Dictionaries
+http://www.drouizig.org/index.php/fr/dafar-fr/dictionnaires/95-geriaduriou-enlinenn List of online dictionaries
+https://www.lexilogos.com/breton_dictionnaire.htm lexilogos
+http://brezhonegbev.free.fr/ brezhoneg bev
+* https://drive.google.com/open?id=1aNzmwmWneWw2PTe0r2S48rKUbeRECbe- collection of dictionaries
+
+Grammars
+* https://drive.google.com/open?id=17IoVy_xvX8D1f9xygllC8cYAPshqPQ3z selection of dialectal grammars
+
+Corpora/linguistic atlases
+https://www.google.com/maps/d/u/0/viewer?ll=48.074408784510666%2C-4.0924071250000225&spn=1.698195%2C4.943848&view=map&hl=en&gl=fr&msa=0&z=8&ie=UTF8&mid=1mb3FAfceTbGWAXW0E13meCt7osY map of corpora
+http://dico.parlant.breton.free.fr/ Dictionnaires parlants
+http://sbahuaud.free.fr/ALBB/ ALBB
+http://banque.sonore.breton.free.fr/nouveautes.html Banque sonore des dialectes
+https://cocoon.huma-num.fr/exist/crdo/meta/cocoon-fd48c512-26d0-3bd3-b02b-4ae995285d05 corpus de la parole (some breton included)
+https://cocoon.huma-num.fr/exist/crdo/meta/cocoon-822df833-b79c-39d6-92f8-8ea4a5ab4025 NALBB
+
+Videos of dialectal Breton
+https://www.skolvreizh.com/komzoubrezhonegmenu komzoù brezhoneg
+https://www.youtube.com/channel/UCF4P570Zdr4R5nj2QF6pftQ Brezhoneg Digor
+
+Media
+http://www.radiobreizh.bzh/fr/index.php Radio Breizh
+https://france3-regions.francetvinfo.fr/bretagne/emissions/jt-local-1213-taol-lagad An taol lagad
+http://www.antourtan.bzh/default.asp An tour tan
+http://www.brezhoweb.bzh/ Brezhoweb
+http://blog.gwagenn.tv/videos/ Gwagenn
+http://www.kaouenn.net/ kaouenn
+https://www.breizhvod.com/ Videos in breton (not free)
+
+Music
+https://www.kan.bzh/ collection of songs
+http://www.dastum.bzh/ information on Breton music
+http://www.kan-iliz.com/ sacred music
+http://follenn.chez.com/index.html collection of songs
+* https://drive.google.com/file/d/0B59rvNSpIaPjdVhJU3dKUm9qVHc/view?usp=sharing Kanaouennoù Breiz-Vihan (1911)
+
+Learning
+https://www.routledgetextbooks.com/textbooks/colloquial/language/breton.php audio from "Colloquial Breton"
+http://www.cndp.fr/crdp-rennes/crdp/crdp_dossiers/dossiers/diouzhtu/accueil.htm diouzhtu
+http://hizivandeiz.free.fr/loadnevez/240.htm Hiziv an deiz
+http://www.skolober.com/kenteliouG.htm Skol ober (subscription service)
+http://www.kervarker.org/en/lessons_01_toc.html kervarker
+http://dao.skol.free.fr/ DAO
+** https://github.com/merryndd/ankidecks Anki decks from various sources
+
+Old grammars/dictionaries
+https://archive.org/details/introductiontobr00treauoft Treasure, J. P. An introduction to Breton grammar (1903)
+http://www.catholicon.net/idem/pellgargadenn.htm Catholicon
+
+Collections of old books and documents online
+https://www.univ-brest.fr/crbc/menu/Library/Digitized-resources CRBC resources
+http://bibnum.univ-rennes2.fr/items/browse?collection=1 Rennes 2
+http://www.persee.fr/collection/abpo Annales de Bretagne et des pays de l’Ouest (journal about Breton history)
+
+Forums
+http://brezhonegarbobl.forumgratuit.org/ Brezhoneg ar pobl
+http://academia-celtica.niceboard.com/ academia-celtica
+
+Buy things
+http://www.klask.com/ various books cds etc.
+
+Linguistics
+http://arbres.iker.cnrs.fr/index.php?title=Accueil Arbres
+
+Sociolinguistics
+http://www.langue-bretonne.com/ Fañch Broudic's thesis
+http://francoisemorvan.com/ Françoise Morvan
+https://www.degruyter.com/view/j/ijsl.2013.2013.issue-223/issue-files/ijsl.2013.2013.issue-223.xml Special issue of IJSL (requires institutional access)
+
+Literature
+http://embann.an.hirwaz.online.fr/ Embann an hirwaz: old texts digitised
+
+Gallo
+https://www.lexilogos.com/gallo_dictionnaire.htm list of resources
+http://www.icem-freinet.fr/archives/educ/81-82/8/25-30.pdf article on gallo from the 80s
+
+Politics
+http://stourmomp.blogspot.com/ political graffiti
+http://www.tempsnoirs.lautre.net/ anarcho-regionalism
+https://www4.uwm.edu/celtic/ekeltoi/volumes/vol4/4_2/laine_4_2.pdf memoires of Célestin Lainé
+
+Other
+https://sites.ina.fr/bretagne-grande-vitesse/tempo/ trains
