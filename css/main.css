@@ -157,6 +157,7 @@ ul.posts li {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  color: #333;
 }
 
 @media (max-width: 810px) {
