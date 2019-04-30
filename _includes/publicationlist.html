@@ -9,7 +9,7 @@
             {% endif %}
             {% if post.type == "standalone" %}
                 <p class="bibentry">
-                    <b>{{ post.date | date: "%Y" }}{% if post.peerreview %}*{% endif %}{% if post.statusen %} ({{ post.statusen }}){% endif %}</b> {{ post.author1 }}{% if post.author3 %}, {{ post.author2 }}, and {{ post.author3 }}, {% else %}{% if post.author2 %} and {{ post.author2 }}, {% else %}, {% endif %}{% endif %}{% if post.fulltext %}<a href="{{ post.fulltext }}">{% endif %}<i>{{ post.title }}</i>{% if post.fulltext %}</a>{% endif %}, {% if post.editionen %}{{ post.editionen }} edn., {% endif %}{% if post.locationen %}{{ post.locationen }}{% else %}{{ post.location }}{% endif %}, {{ post.publisher }}
+                    <b>{{ post.date | date: "%Y" }}{% if post.peerreview %}*{% endif %}{% if post.statusen %} ({{ post.statusen }}){% endif %}</b> {{ post.author1 }}{% if post.author3 %}, {{ post.author2 }}, and {{ post.author3 }}, {% else %}{% if post.author2 %} and {{ post.author2 }}, {% else %}, {% endif %}{% endif %}{% if post.fulltext %}<a href="{{ post.fulltext }}">{% endif %}<i>{{ post.title }}</i>{% if post.fulltext %}</a>{% endif %}, {% if post.editionen %}{{ post.editionen }} edn., {% endif %}{% if post.locationen %}{{ post.locationen }}, {% else %}{% if post.location %}{{ post.location }}, {% endif %}{% endif %}{{ post.publisher }}
                 <p>
             {% endif %}
             {% if post.type == "chapter" %}
@@ -30,7 +30,7 @@
             {% endif %}
             {% if post.type == "standalone" %}
                 <p class="bibentry">
-                    <b>{{ post.date | date: "%Y" }}{% if post.peerreview %}*{% endif %}{% if post.statuskw %} ({{ post.statuskw }}){% endif %}</b> {{ post.author1 }}{% if post.author3 %}, {{ post.author2 }}, {% if post.andauthorvowel %}hag{% else %}ha{% endif %} {{ post.author3 }}, {% else %}{% if post.author2 %} {% if post.andauthorvowel %}hag{% else %}ha{% endif %} {{ post.author2 }}, {% else %}, {% endif %}{% endif %}{% if post.fulltext %}<a href="{{ post.fulltext }}">{% endif %}<i>{{ post.title }}</i>{% if post.fulltext %}</a>{% endif %}, {% if post.editionkw %}{{ post.editionkw }} dyllans, {% endif %}{% if post.locationkw %}{{ post.locationkw }}{% else %}{{ post.location }}{% endif %}, {{ post.publisher }}
+                    <b>{{ post.date | date: "%Y" }}{% if post.peerreview %}*{% endif %}{% if post.statuskw %} ({{ post.statuskw }}){% endif %}</b> {{ post.author1 }}{% if post.author3 %}, {{ post.author2 }}, {% if post.andauthorvowel %}hag{% else %}ha{% endif %} {{ post.author3 }}, {% else %}{% if post.author2 %} {% if post.andauthorvowel %}hag{% else %}ha{% endif %} {{ post.author2 }}, {% else %}, {% endif %}{% endif %}{% if post.fulltext %}<a href="{{ post.fulltext }}">{% endif %}<i>{{ post.title }}</i>{% if post.fulltext %}</a>{% endif %}, {% if post.editionkw %}{{ post.editionkw }} dyllans, {% endif %}{% if post.locationkw %}{{ post.locationkw }}, {% else %}{% if post.location %}{{ post.location }}, {% endif %}{% endif %}{{ post.publisher }}
                 <p>
             {% endif %}
             {% if post.type == "chapter" %}
