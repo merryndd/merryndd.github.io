@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
+    color: #333;
     }
     
 a {
@@ -29,15 +30,11 @@ nav ul li, footer ul li {
 	padding: 5px;
 }
 
-nav a:hover, footer a:hover {
-    text-decoration: underline;
-    background: #e6e6e6;
-    }
 .container {
 	position: relative;
     left: 200px;
     width: 70%;
-    padding: 30px 30px 30px 10px;
+    padding: 0 30px 30px 10px;
     margin: 0;
 }
 h1 {
@@ -112,7 +109,7 @@ footer {
 	position: fixed;
     bottom: 0;
     width: 200px;
-    height: 30%;
+    max-height: 30%;
    }
    
 ul.posts { 
