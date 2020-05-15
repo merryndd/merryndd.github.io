@@ -1,20 +1,10 @@
 <nav>
-    <div class="en">
+    <div>
         <ul>
-            {% for item in site.data.nav %}
-                <li>
-                    <a href="{{ item.link }}">{{ item.enname }}</a>
-                </li>
-            {% endfor %}
-        <ul>
-    </div>
-    <div class="kw">
-        <ul>
-            {% for item in site.data.nav %}
-                <li>
-                    <a href="{{ item.link }}">{{ item.kwname }}</a>
-                </li>
-            {% endfor %}
-        <ul>
+	  <li><a href="/site/index"><span class="en">Home</span><span class="kw">Tre</span></a></li>
+	  <li><a href="/site/sc">Blog</a></li>
+	  <li><a href="/site/kw"><span class="en">Cornish</span><span class="kw">Kernowek</span></a></li>
+	  <li><a href="/site/br"><span class="en">Breton</span><span class="kw">Bretonek</span></a></li>
+	</ul>
     </div>
 </nav>
