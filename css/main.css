@@ -14,7 +14,8 @@ a:visited {
    
 a:hover {
     text-decoration: underline;
-    }
+}
+
 nav {
 	position: fixed;
     width: 200px;
@@ -23,7 +24,7 @@ nav {
 }
 nav ul, footer ul {
 	list-style-type: none;
-    margin: 30px;
+	margin: 30px;
     padding: 0;
 }
 nav ul li, footer ul li {
@@ -54,7 +55,6 @@ h2 {
     }
 p {
     font-size: 1em;
-    color: #333;
     font-family: 'Raleway', sans-serif;
     }
     
@@ -109,8 +109,8 @@ footer {
 	position: fixed;
     bottom: 0;
     width: 200px;
-    max-height: 30%;
-   }
+    max-height: 20%;
+}
    
 ul.posts { 
     margin: 20px auto 40px; 
