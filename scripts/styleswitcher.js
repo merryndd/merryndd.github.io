@@ -34,7 +34,7 @@ function createCookie(name1,value,days) {
     var expires = "; expires="+date.toGMTString();
   }
   else expires = "";
-  document.cookie = name1+"="+value+expires+"; path=/site";
+  document.cookie = name1+"="+value+expires+"; path=/";
 }
 
 function readCookie(name1) {

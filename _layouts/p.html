@@ -63,6 +63,9 @@ layout: default
 {% endif %}
 {% if page.dissurl %}
   <p>  <a href={{ page.dissurl }}>The dissertation on which this paper was based ({{ page.dissyear }})</a></p>
+  {% endif %}
+  {% if page.vidurl %}
+  <p>  <a href={{ page.vidurl }}>Video of the talk</a></p>
 {% endif %}
 </div>
 <div class="kw">
@@ -81,6 +84,9 @@ layout: default
 {% endif %}
 {% if page.dissurl %}
   <p>  <a href={{ page.dissurl }}>An dornscrif ujy an cows ma fondyes warnodho ({{ page.dissyear }})</a></p>
+  {% endif %}
+{% if page.vidurl %}
+  <p>  <a href={{ page.vidurl }}>Gwydhyow a’n cows</a></p>
 {% endif %}
 </div>
 
