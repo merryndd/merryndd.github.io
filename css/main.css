@@ -120,36 +120,8 @@ ul.posts li {
     list-style: none;
 }
 
-.collapsible {
-  background-color: inherit;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-}
-
-.collapsible:after {
-  content: '▸';
-  font-weight: bold;
-  float: left;
-  margin-right: 5px;
-}
-
-.active:after {
-  content: "▼";
-}
-
-.collcontent {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  color: #333;
+details > summary {
+    cursor: pointer;
 }
 
 @media (max-width: 810px) {
