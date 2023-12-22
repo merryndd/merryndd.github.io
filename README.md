@@ -1,3 +1,4 @@
 # merryndd.github.io
 
-My website for mostly academic things, built locally with [Jekyll](https://jekyllrb.com)
+My site is no longer hosted on GitHub. Redirects have been set up to
+the new location, https://www.merryndd.net

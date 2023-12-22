@@ -2,7 +2,3 @@ markdown: kramdown
 future: true
 plugins:
   - jekyll-redirect-from
-  - jekyll-feed
-feed:
-  categories:
-    - blog
